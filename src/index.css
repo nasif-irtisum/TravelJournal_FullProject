@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+header > img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+.journalEntry{
+    display: flex;
+}
+.main-img-container{
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+.mainImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.marker {
+    width: 7px;
+    margin-right: 4px;
+}
+
+article {
+    margin: 40px 20px;
+}
+ a {
+    margin-left:7px;
+}
